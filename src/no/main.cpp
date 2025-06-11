@@ -15,6 +15,7 @@
 #include <string>
 #include <chrono>
 #include <thread>
+#include <algorithm>
 #include <signal.h>
 #include <getopt.h>
 #include <unistd.h>
