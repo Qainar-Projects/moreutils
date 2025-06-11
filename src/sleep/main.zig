@@ -1,4 +1,4 @@
-//! Sleep utility for ASD MoreUtils package
+//! Sleep utility for QCO MoreUtils package
 //! Provides flexible functions for program execution pausing
 //!
 //! Author: AnmiTaliDev
@@ -48,7 +48,7 @@ pub const TimeUnit = enum {
 
 /// Module information
 pub const info = struct {
-    pub const package = "ASD MoreUtils";
+    pub const package = "QCO MoreUtils";
     pub const version = "1.0.0";
     pub const author = "AnmiTaliDev";
     pub const license = "Apache 2.0";
@@ -129,6 +129,6 @@ fn printUsage() !void {
     try stderr.print("  sleep 5      - sleep for 5 seconds\n", .{});
     try stderr.print("  sleep 100 ms - sleep for 100 milliseconds\n", .{});
     try stderr.print("\n", .{});
-    try stderr.print("ASD MoreUtils package - By AnmiTaliDev\n", .{});
+    try stderr.print("QCO MoreUtils package - By AnmiTaliDev\n", .{});
     try stderr.print("License: Apache 2.0\n", .{});
 }

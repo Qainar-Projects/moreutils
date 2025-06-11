@@ -68,7 +68,7 @@ def format_uptime(seconds, pretty=False):
 def main():
     parser = argparse.ArgumentParser(
         description='Flexible system uptime utility',
-        epilog='Part of ASD MoreUtils. Author: AnmiTaliDev. License: Apache 2.0'
+        epilog='Part of QCO MoreUtils. Author: AnmiTaliDev. License: Apache 2.0'
     )
     parser.add_argument('-b', '--brief', action='store_true', 
                        help='Machine-friendly numerical output')
@@ -86,7 +86,7 @@ def main():
     args = parser.parse_args()
 
     if args.version:
-        print("ASD MoreUtils uptime 1.0.0\nAuthor: AnmiTaliDev\nLicense: Apache 2.0")
+        print("QCO MoreUtils uptime 1.0.0\nAuthor: AnmiTaliDev\nLicense: Apache 2.0")
         return
 
     if not sys.platform.startswith('linux'):

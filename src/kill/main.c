@@ -1,5 +1,5 @@
 /*
- * ASD MoreUtils - Kill
+ * QCO MoreUtils - Kill
  * Flexible process signal management utility
  * Author: AnmiTaliDev
  * License: Apache 2.0

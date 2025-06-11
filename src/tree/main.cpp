@@ -1,5 +1,5 @@
 /*
- * ASD MoreUtils - Tree Utility
+ * QCO MoreUtils - Tree Utility
  * 
  * Author: AnmiTaliDev
  * License: Apache License 2.0
@@ -18,7 +18,7 @@
  
  namespace fs = std::filesystem;
  
- namespace ASD {
+ namespace QCO {
  namespace MoreUtils {
  
  class TreeUtil {
@@ -242,10 +242,10 @@
  };
  
  } // namespace MoreUtils
- } // namespace ASD
+ } // namespace QCO
  
  void printUsage(const char* programName) {
-     std::cout << "ASD MoreUtils - Tree Utility" << std::endl;
+     std::cout << "QCO MoreUtils - Tree Utility" << std::endl;
      std::cout << "Author: AnmiTaliDev" << std::endl;
      std::cout << "License: Apache License 2.0" << std::endl << std::endl;
      std::cout << "Usage: " << programName << " [OPTIONS] [DIRECTORY]" << std::endl;
@@ -262,7 +262,7 @@
  }
  
  int main(int argc, char* argv[]) {
-     ASD::MoreUtils::TreeUtil tree;
+     QCO::MoreUtils::TreeUtil tree;
      std::string directory = ".";
      
      for (int i = 1; i < argc; i++) {

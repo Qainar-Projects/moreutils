@@ -1,7 +1,7 @@
-# ASD MoreUtils
+# QCO MoreUtils
 
 ## Overview
-ASD MoreUtils (AnmiTali Software Distribution MoreUtils) is a supplementary package to ASD CoreUtils, providing additional command-line utilities for enhanced system management and productivity. These utilities extend the functionality available in the core package with commonly used tools for everyday tasks.
+QCO MoreUtils (AnmiTali Software Distribution MoreUtils) is a supplementary package to QCO CoreUtils, providing additional command-line utilities for enhanced system management and productivity. These utilities extend the functionality available in the core package with commonly used tools for everyday tasks.
 
 ## Included Utilities
 
@@ -33,10 +33,10 @@ Shows how long the system has been running along with load averages.
 Outputs a string repeatedly until terminated.
 
 ## License
-ASD MoreUtils is distributed under the Apache 2.0. See LICENSE file for details.
+QCO MoreUtils is distributed under the Apache 2.0. See LICENSE file for details.
 
 ## Author
 Developed and maintained by AnmiTaliDev
 
 ## See Also
-- ASD CoreUtils - The core utilities package
+- QCO CoreUtils - The core utilities package

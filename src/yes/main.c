@@ -1,7 +1,7 @@
 /**
  * yes.c - Simple utility to output a string repeatedly until interrupted
  * 
- * Part of ASD MoreUtils package
+ * Part of QCO MoreUtils package
  * 
  * Copyright 2025 AnmiTaliDev
  * 
@@ -45,7 +45,7 @@
      printf("  -v, --version    output version information and exit\n");
      printf("  -n, --newline    don't output the trailing newline\n");
      printf("  -l N, --limit=N  stop after N iterations\n");
-     printf("\nPart of ASD MoreUtils by AnmiTaliDev.\n");
+     printf("\nPart of QCO MoreUtils by AnmiTaliDev.\n");
      printf("Licensed under Apache License 2.0.\n");
  }
  
@@ -76,7 +76,7 @@
                  print_help(argv[0]);
                  return 0;
              case 'v':
-                 printf("yes (ASD MoreUtils) %s\n", VERSION);
+                 printf("yes (QCO MoreUtils) %s\n", VERSION);
                  printf("Copyright (C) 2025 AnmiTaliDev\n");
                  printf("License Apache 2.0\n");
                  return 0;

@@ -1,5 +1,5 @@
 /*
- * tee.c - utility from ASD MoreUtils package
+ * tee.c - utility from QCO MoreUtils package
  * Version 1.0.0
  * 
  * Copyright 2025 AnmiTaliDev
@@ -29,7 +29,7 @@
  
  #define BUFFER_SIZE 4096
  #define VERSION "1.0.0"
- #define PACKAGE "ASD MoreUtils"
+ #define PACKAGE "QCO MoreUtils"
  
  /* Command line option flags */
  static int append_flag = 0;        /* -a, --append */
@@ -54,7 +54,7 @@
  
  /* Version information */
  static void print_version(void) {
-     printf("tee (ASD MoreUtils) %s\n", VERSION);
+     printf("tee (QCO MoreUtils) %s\n", VERSION);
      printf("Copyright (C) 2025 AnmiTaliDev\n");
      printf("License: Apache 2.0\n");
  }

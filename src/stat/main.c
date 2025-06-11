@@ -1,6 +1,6 @@
 /*
  * stat.c - File system statistics utility
- * Part of ASD MoreUtils package
+ * Part of QCO MoreUtils package
  * 
  * Copyright 2025 AnmiTaliDev
  *
@@ -137,7 +137,7 @@
  
  void print_version(void) {
      printf("%s %s\n", PROG_NAME, PROG_VERSION);
-     printf("Part of ASD MoreUtils package\n");
+     printf("Part of QCO MoreUtils package\n");
      printf("Copyright 2025 AnmiTaliDev\n");
      printf("License Apache-2.0: Apache License 2.0 <http://www.apache.org/licenses/LICENSE-2.0>\n");
      printf("This is free software: you are free to change and redistribute it.\n");
@@ -154,7 +154,7 @@
      printf("  -t, --terse           print the information in terse form\n");
      printf("  -h, --help            display this help and exit\n");
      printf("  -v, --version         output version information and exit\n\n");
-     printf("Part of ASD MoreUtils package\n");
+     printf("Part of QCO MoreUtils package\n");
  }
  
  void print_stat(const char *path, options_t *opts) {
