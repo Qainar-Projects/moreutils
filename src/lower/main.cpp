@@ -19,6 +19,8 @@
 #include <algorithm>
 #include <locale>
 #include <codecvt>
+#include <cstring>
+#include <cerrno>
 #include <getopt.h>
 #include <unistd.h>
 

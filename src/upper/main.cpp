@@ -18,6 +18,8 @@
 #include <vector>
 #include <algorithm>
 #include <locale>
+#include <cstring>
+#include <cerrno>
 #include <codecvt>
 #include <getopt.h>
 #include <unistd.h>
